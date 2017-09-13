@@ -1,5 +1,5 @@
-FROM jeanblanchard/busybox-java
+FROM gliderlabs/alpine:3.4
 
 MAINTAINER John Nolette, john@neetgroup.net
 
-RUN opkg-install bash curl git sshtunnel
+RUN apk --update add bash curl git openssh openjdk8-jre
