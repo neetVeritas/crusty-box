@@ -1,7 +1,8 @@
 # crusty-box
-Minimal docker image based off [docker-alpine](https://github.com/gliderlabs/docker-alpine) with Java (JDK8), bash, curl, git, and ssh installed.
 
-## Use
+[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)](https://hub.docker.com/r/neetjn/crusty-box)
+
+Minimal docker image based off [docker-alpine](https://github.com/gliderlabs/docker-alpine) with Java (JDK8), bash, curl, git, and ssh installed.
 
 ### Docker CLI
 ```bash
